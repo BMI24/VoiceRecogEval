@@ -241,7 +241,7 @@ namespace VoiceRecogEvalServer
                         .GroupBy(e => e.StringDiff, e => e)
                         .Select(
                             g => g.Select(x => x)
-                                .MinBy(x => x.Phrase1.Length))
+                                .MinBy(x => x.Phrase1.Length).First())
                         .OrderBy(g => g.EditDistance)
                         .ToList();
 
