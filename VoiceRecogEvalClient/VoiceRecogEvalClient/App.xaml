@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VoiceRecogEvalClient.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ErrorColor">#CC2936</Color>
+            <Color x:Key="ProcessingColor">#FA9F42</Color>
+            <Color x:Key="UserInputColor">#226F54</Color>
+            <Color x:Key="TextColor">#231F20</Color>
+            <Color x:Key="NeutralColor">#87C38F</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

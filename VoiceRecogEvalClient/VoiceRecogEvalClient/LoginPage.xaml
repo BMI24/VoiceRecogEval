@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VoiceRecogEvalClient.LoginPage"
+             BackgroundColor="{StaticResource Key=NeutralColor}">
+    <ContentPage.Content>
+        <StackLayout x:Name="LoginEntries" 
+                     VerticalOptions="Center"
+                     Padding="40,0,40,0">
+
+            <Label Text="Spracherkennung-Test"
+                       FontSize="Large"
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center"/>
+            <Label Text="Name"
+                   TextColor="Black"/>
+            <Entry x:Name="EntryUsername"
+                   TextColor="Black"
+                   Placeholder="Name"
+                   PlaceholderColor="Gray"/>
+
+            <Button x:Name="BtnAccept"
+                    Text="Weiter"
+                    Clicked="Btn_accept_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
